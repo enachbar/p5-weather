@@ -1,0 +1,266 @@
+html {
+	background: #fff;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+	position: relative;
+	float:left;
+	font-size: 1.85em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	text-decoration: underline;
+	text-shadow: 2px 1px 4px #A9A9A9;
+	color: white;
+	top:6em;
+	left:-.85em;
+	}
+
+h1 {
+	position: relative;
+	float:left;
+	font-size: 5.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	text-shadow: 2px 1px 4px #A9A9A9;
+	color: white;
+	top:2.65em;
+	left:-.85em;
+	margin:0 0%;
+
+	
+
+
+
+}
+
+
+
+/*weath watcher banner*/
+.banner img {
+	width: 100%;
+	position: static;
+	margin-top: -2em;
+	border:0;	
+}
+
+/*maru logo and slogan*/
+
+
+
+
+
+/*about and contact content*/
+
+div.content-bg {
+	background-color: #fff;
+	margin-top: -1%;
+	position: relative;
+}
+
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 2%;
+}
+
+.lines {
+	width: 8%;
+	float: left;
+	margin: 0 10%;
+}
+
+.circle {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin:4em 0 0 8em;
+	z-index: -99;
+}
+.circle2 {
+	width: 15%;
+	position: relative;
+	top:15em;
+	left: -10em;
+	float: left;
+	margin: 3em;
+}
+
+
+.current {
+	width: 70%;
+	float: left;
+}
+
+
+
+
+
+/*footer*/
+
+
+.footer .forecast {
+	width: 20%;
+	float: left;
+	padding-left: 1%;
+	padding-top: 2%	;
+	margin-top: 2em;
+	color: #fff;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 570px) {
+
+.h3 {
+	width:100%;
+	float:left;
+}
+
+
+
+.lines {
+	
+	float: left;
+	margin: 0 5%;
+}
+
+.circle {
+	width: 10%;
+	position: relative;
+	float: left;
+	margin: 1em;
+}
+
+.circle2 {
+	width: 100%;
+	position: relative;
+	top:-3em;
+	float: left;
+	margin:0 0 2em 2em;
+}
+
+
+.current {
+	width: 45%;
+	float: left;
+}
+
+.current h3 {
+	margin-left: 1em;
+}
+
+
+
+
+
+/*footer*/
+
+.footer .forecast {
+	width: 20%;
+	float: left;
+	padding-left: 18%;
+	padding-top: 2%	;
+	margin-top: 2em;
+	color: #fff;
+}
+
+}
+
+
+/******Media Queries*******/
+
+/*ipad - portrait*/
+@media screen and (max-width: 768px) {
+
+
+
+h3{
+
+	width: 100%
+	float:left;
+}
+
+
+
+
+.lines {
+	width: 10%;
+	float: left;
+	margin: 0 10%;
+}
+
+.circle {
+	width: 100%;
+	position: relative;
+	float: left;
+	left:-8em;
+	margin: em;
+}
+
+.circle2 {
+	width: 35%;
+	position: relative;
+	top:-7em;
+	left:3em;
+	float: left;
+	margin:0 0 0 2em;
+}
+
+
+.current {
+	width: 50%;
+	top:6em;
+	float: right;
+}
+
+.current h3 {
+	margin-left: 1em;
+}
+
+.current ul {
+	margin-left: -1.3em;
+}
+
+.current li {
+	list-style: none;
+	
+}
+
+
+
+/*footer*/
+
+.footer .forecast {
+	width: 20%;
+	float: left;
+	padding-left: 18%;
+	padding-top: 2%	;
+	margin-top: 2em;
+	color: #fff;
+}
+
+
+
+}
