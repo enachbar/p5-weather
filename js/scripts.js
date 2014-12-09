@@ -1,31 +1,50 @@
+
+
 // Docs at http://simpleweatherjs.com
-$(document).ready(function()
+$(document).ready(function() {
 
 
-var cheney = '99004';
-var spokane = '99201';
 
- {
+    /* Geolocation */
+if ("geolocation" in navigator) {
+  $('.js-geolocation').show(); 
+} else {
+  $('.js-geolocation').hide();
+}
+
+/* Locator */
+$('.js-geolocation').on('click', function() {
+  navigator.geolocation.getCurrentPosition(function(position) {
+    loadWeather(position.coords.latitude+','+position.coords.longitude); //load weather using your lat/lng coordinates
+  });
+});
+
+
+
+
+$(document).ready(function() {
+  loadWeather('San Francisco',''); 
+});
+
+function loadWeather(location, woeid) {
   $.simpleWeather({
-    location: 'Austin, TX',
-    woeid: '',
+    location: location,
+    woeid: woeid,
     unit: 'f',
-    
-    //If can ge weather
     success: function(weather) {
+      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      html += '<ul><li>'+weather.city+', '+weather.region+','+weather.alt.temp+'&deg;C</li> <br>';
+      html += '<li class="currently">'+weather.currently+'</li>';
+      html += '<li>'+weather.alt.temp+'&deg;C</li></ul>';  
       
-      $('.temp').text(weather.temp);
-      $('current').text(weather.currently);
-      $('.header').text(weather.city)
-    
-
-    //PUT DISPLAY
       $("#weather").html(html);
     },
-
-    //if cannot get weather
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
   });
+}
+
+
+  
 });
