@@ -215,14 +215,14 @@ h3{
 	width: 100%;
 	position: relative;
 	float: left;
-	left:-8em;
-	margin: em;
-}
+	left:-7em;
+	top:-5em;
+	margin:1em;}
 
 .circle2 {
 	width: 35%;
 	position: relative;
-	top:-7em;
+	top:-11em;
 	left:3em;
 	float: left;
 	margin:0 0 0 2em;
@@ -239,14 +239,7 @@ h3{
 	margin-left: 1em;
 }
 
-.current ul {
-	margin-left: -1.3em;
-}
 
-.current li {
-	list-style: none;
-	
-}
 
 
 
