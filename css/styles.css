@@ -198,10 +198,20 @@ div.content-bg {
 
 h3{
 
-	width: 100%
+	width: 100%;
 	float:left;
+	top:2em;
+	margin-left: 1em;
+
 }
 
+h1{
+	width: 100%;
+	float:left;
+	top:.35em;
+	left:-.6em ;
+	margin-left: 1em;
+}
 
 
 
@@ -215,14 +225,14 @@ h3{
 	width: 100%;
 	position: relative;
 	float: left;
-	left:-7em;
-	top:-5em;
+	left:-6em;
+	top:-10em;
 	margin:1em;}
 
 .circle2 {
 	width: 35%;
 	position: relative;
-	top:-11em;
+	top:-15em;
 	left:3em;
 	float: left;
 	margin:0 0 0 2em;
@@ -233,10 +243,6 @@ h3{
 	width: 50%;
 	top:6em;
 	float: right;
-}
-
-.current h3 {
-	margin-left: 1em;
 }
 
 
