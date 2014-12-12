@@ -89,7 +89,8 @@ button {
   border: 0;
   border-radius: 5px;
   margin: 0px auto;
-  font-size: 20px;
+
+  font-size: 10px;
   vertical-align: center;
   font-weight: 300;
   text-align: center;
@@ -97,6 +98,8 @@ button {
   text-transform: uppercase;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
+
+
 
 .weather {
   
@@ -133,6 +136,7 @@ button {
 }
 
 .banner  {
+  overflow: hidden;
   margin: auto;
   font-size: 50px;
   font-weight: 400;
@@ -143,6 +147,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   background-color: #4e7f82;
+  border-radius: 10px;
   width: 100%;
 
 
@@ -188,7 +193,7 @@ background: transparent;
   color: #595959;
   border: 0;
   border-radius: 5px;
-   margin: 0px auto;
+  margin: 40px ;
   color: #595959;
   font-size: 15px;
   font-weight: 300;
